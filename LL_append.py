@@ -33,9 +33,6 @@ class LinkedList:
         else :
             self.tail.next = new_node
             self.tail=new_node
-        # INSERT IF/ELSE STATEMENT HERE #
-        #################################
-        
         self.length += 1
 
 
